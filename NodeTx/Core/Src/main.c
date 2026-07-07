@@ -108,17 +108,6 @@ int main(void)
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
 
-  //SX1262_Reset();			// Working Fine
-  //SX1262_Set_Freq();		// Working Fine
-
-  //SX1262_Set_Modem();		// Working Fine
-
-  //SX1262_PKT();				// Working Fine
-
-  //SX1262_Set_LM_Config(); 	// Working Fine
-
-  //SX1262_Set_TX_Power();	// Working Fine
-
   SX1262_Init();
 
   SX1262_Set_LPCFG();
